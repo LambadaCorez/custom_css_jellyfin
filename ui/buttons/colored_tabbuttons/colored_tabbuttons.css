@@ -1,0 +1,6 @@
+.emby-tab-button {
+    color: var(--tabbutton-color);
+}
+.emby-tab-button:hover {
+    color: var(--tabbutton-hover-color);
+}

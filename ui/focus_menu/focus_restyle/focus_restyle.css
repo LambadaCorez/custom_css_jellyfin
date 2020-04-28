@@ -1,0 +1,11 @@
+.formDialog {
+    background:rgba(5,5,5,.9) !important;
+    -webkit-backdrop-filter: blur(var(--dialogprompt-blur-amount)) !important;
+    backdrop-filter: blur(var(--dialogprompt-blur-amount)) !important;
+}
+
+.formDialogHeader, .formDialogFooter {
+    background: rgba(255,255,255,.1) !important;
+    -webkit-backdrop-filter: blur(var(--dialogprompt-blur-amount)) !important;
+    backdrop-filter: blur(var(--dialogprompt-blur-amount)) !important;
+}

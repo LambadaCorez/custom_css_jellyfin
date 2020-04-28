@@ -1,0 +1,3 @@
+.inputLabelFocused {
+    color: var(--input-label-focus) !important;
+}

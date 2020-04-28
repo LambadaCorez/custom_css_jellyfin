@@ -1,0 +1,203 @@
+/* CONTAINS ALL CSS >:) */
+
+.visualCardBox {
+    border-radius:var(--rounded-card-box)!important;
+}
+
+.cardBox, .cardOverlayContainer {
+    border-radius: var(--border-radius-card)
+}
+
+.osdHeader {
+    background: var(--video-controlpanel-background) !important;
+    -webkit-backdrop-filter: blur(var(--video-controlpanel-blur-amount)) brightness(var(--video-controlpanel-brightness-amount));
+    backdrop-filter: blur(var(--video-controlpanel-blur-amount)) brightness(var(--video-controlpanel-brightness-amount));
+}
+.videoOsdBottom{
+    background: var(--video-controlpanel-background) !important;
+    -webkit-backdrop-filter: blur(var(--video-controlpanel-blur-amount)) brightness(var(--video-controlpanel-brightness-amount));
+    backdrop-filter: blur(var(--video-controlpanel-blur-amount)) brightness(var(--video-controlpanel-brightness-amount));
+}
+
+/*-- Drop color of progress bar */
+.mdl-slider-background-flex {
+    background: var(--mediaplayer-unloaded-remaining-color) !important;
+}
+
+/*--Loaded already */
+.mdl-slider-background-upper {
+    background: var(--mediaplayer-loaded-remaining-color);
+}
+/*-- Played already */
+.mdl-slider-background-lower {
+    background: var(--mediaplayer-background);
+}
+.sliderBubble,
+.mdl-slider::-webkit-slider-thumb {
+  background: var(--mediaplayer-thumbslider) !important; }
+
+.mdl-slider::-moz-range-thumb, .mdl-slider::-moz-range-progress {
+  background: var(--mediaplayer-thumbslider) !important; }
+  
+.mdl-slider:focus::-webkit-slider-thumb {
+  -webkit-box-shadow: 0 0 0 10px rgba(255, 128, 0, 0.26);
+  box-shadow: 0 0 0 10px var(--mediaplayer-thumbslider-focus) !important; 
+}
+
+.backgroundContainer.withBackdrop {
+    background: var(--background-grain) !important;
+ }
+
+.backdropContainer {
+    -webkit-backface-visibility: visible;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: visible;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-filter: blur(var(--background-blur-amount)) brightness(var(--background-brightness-amount)) !important;
+    -moz-filter: blur(var(--background-blur-amount)) brightness(var(--background-brightness-amount)) !important;
+    -o-filter: blur(var(--background-blur-amount)) brightness(var(--background-brightness-amount)) !important;
+    -ms-filter: blur(var(--background-blur-amount)) brightness(var(--background-brightness-amount)) !important;
+    filter: blur(var(--background-blur-amount)) brightness(var(--background-brightness-amount)) !important;
+}
+
+.detailSticky {
+    -webkit-backdrop-filter: blur(var(--media-bar-blur-amount)) !important;
+    backdrop-filter: blur(var(--media-bar-blur-amount)) !important;
+}
+
+.skinHeader-withBackground {
+    background: var(--navbar-color);
+    backdrop-filter: blur(var(--navbar-blur-amount));
+   -webkit-backdrop-filter: blur(var(--navbar-blur-amount));
+}
+
+.mainDrawer {
+    background-color: var(--sidebar-color) !important;
+    -webkit-backdrop-filter: blur(var(--sidebar-blur-amount)) !important;
+    backdrop-filter: blur(--sidebar-blur-amount) !important;
+    width: var(--sidebar-width) !important;
+}
+.navMenuOption-selected {
+    background: var(--sidebar-selectedoption-color) !important;
+}
+.tmla-mask.backdrop {
+    color: var(--sidebar-background-color) !important;
+    -webkit-backdrop-filter: blur(var(--sidebar-background-blur-amount)) !important;
+    backdrop-filter: blur(var(--sidebar-background-blur-amount)) !important;
+}
+
+.itemProgressBarForeground {
+    background:var(--progressbar-card-color) !important;
+  }
+  .itemProgressBar {
+  background:var(--progressbar-card-background-color);
+  -webkit-backdrop-filter: blur(var(--progressbar-blur-amount));
+  backdrop-filter: blur(var(--progressbar-blur-amount));
+}
+
+.paper-icon-button-light {
+    color: var(--materialbutton-color) !important;
+}
+
+.paper-icon-button-light:hover:not(:disabled) {
+    color:var(--materialbutton-hover-color) !important;
+    background-color: var(--materialbutton-bg-hover-color) !important;
+}
+.paper-icon-button-light:focus:not(:disabled) {
+    color:var(--materialbutton-click-color) !important;
+    background-color: var(--materialbutton-bg-click-color) !important;
+}
+
+.navMenuOption-selected {
+    background: linear-gradient(var(--nav-menu-degree)deg, var(--nav-menu-button-color1), var(--nav-menu-button-color2)) !important;
+}
+
+.button-submit, .button-alt {
+    background:var(--button-background) !important;
+}
+
+.emby-tab-button {
+    color: var(--tabbutton-color);
+}
+.emby-tab-button:hover {
+    color: var(--tabbutton-hover-color);
+}
+
+.countIndicator {
+    background: var(--countindicator-background) !important;
+    border-radius: var(--countindicator-border-radius) !important;
+    -webkit-clip-path: var(--countindicator-clip-path) !important;
+    -ms-clip-path: var(--countindicator-clip-path) !important;
+    -o-clip-path: var(--countindicator-clip-path) !important;
+    clip-path: var(--countindicator-clip-path) !important;
+    box-shadow: var(--countindicator-shadow);
+}
+
+.navMenuOption {
+    border-radius:var(--rounded-buttons) !important;
+}
+
+.listItem {
+    padding: var(--contextmenu-paddingspacing) !important;
+    border-radius: var(--contextmenu-border-radius) !important;
+}
+
+.actionSheet {
+    border-radius: var(--contextmenu-border-radius) !important;
+    background-color: var(--contextmenu-color) !important;
+    -webkit-backdrop-filter: blur(var(--contextmenu-blur-amount)) !important;
+    backdrop-filter: blur(var(--contextmenu-blur-amount)) !important;
+}
+
+.actionsheetListItemBody {
+    padding: var(--contextmenu-paddingspacing) var(--contextmenu-paddingright) var(--contextmenu-paddingspacing) var(--contextmenu-paddingleft) !important;
+}
+
+.formDialog {
+    background:rgba(5,5,5,.9) !important;
+    -webkit-backdrop-filter: blur(var(--dialogprompt-blur-amount)) !important;
+    backdrop-filter: blur(var(--dialogprompt-blur-amount)) !important;
+}
+
+.formDialogHeader, .formDialogFooter {
+    background: rgba(255,255,255,.1) !important;
+    -webkit-backdrop-filter: blur(var(--dialogprompt-blur-amount)) !important;
+    backdrop-filter: blur(var(--dialogprompt-blur-amount)) !important;
+}
+
+.formDialog {
+    border-radius: var(--main-card-round-radius);
+}
+
+/* THANK YOU u/EdgeMentality!! */
+.listItemImage-large {
+    height: var(--listitem-height) !important;
+}
+
+.pageTitleWithDefaultLogo{
+    background-image: var(--jellyfin-logo-image) !important;
+}
+
+.layout-mobile .pageTitleWithDefaultLogo {
+    background-image: var(--jellyfin-mobile-logo-image) !important;
+}
+
+.mdl-spinner__layer-1, .mdl-spinner__layer-2, .mdl-spinner__layer-3,
+.mdl-spinner__layer-4 {
+  border-color: var(--spinner-color) !important;
+}
+
+.emby-input:focus {
+    border-color: var(--input-border-focus-color) !important;
+}
+.emby-select-withcolor:focus{
+    border-color: var(--input-border-focus-color) !important;
+}
+
+.inputLabelFocused {
+    color: var(--input-label-focus) !important;
+}

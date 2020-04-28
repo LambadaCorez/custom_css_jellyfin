@@ -1,0 +1,3 @@
+.button-submit, .button-alt {
+    background:var(--button-background) !important;
+}

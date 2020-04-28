@@ -1,0 +1,19 @@
+.backgroundContainer.withBackdrop {
+    background: var(--background-grain) !important;
+ }
+
+.backdropContainer {
+    -webkit-backface-visibility: visible;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: visible;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-filter: blur(var(--background-blur-amount)) brightness(var(--background-brightness-amount)) !important;
+    -moz-filter: blur(var(--background-blur-amount)) brightness(var(--background-brightness-amount)) !important;
+    -o-filter: blur(var(--background-blur-amount)) brightness(var(--background-brightness-amount)) !important;
+    -ms-filter: blur(var(--background-blur-amount)) brightness(var(--background-brightness-amount)) !important;
+    filter: blur(var(--background-blur-amount)) brightness(var(--background-brightness-amount)) !important;
+}

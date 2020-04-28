@@ -1,0 +1,23 @@
+/*-- Drop color of progress bar */
+.mdl-slider-background-flex {
+    background: var(--mediaplayer-unloaded-remaining-color) !important;
+}
+
+/*--Loaded already */
+.mdl-slider-background-upper {
+    background: var(--mediaplayer-loaded-remaining-color);
+}
+/*-- Played already */
+.mdl-slider-background-lower {
+    background: var(--mediaplayer-background);
+}
+.sliderBubble,
+.mdl-slider::-webkit-slider-thumb {
+  background: var(--mediaplayer-thumbslider) !important; }
+
+.mdl-slider::-moz-range-thumb, .mdl-slider::-moz-range-progress {
+  background: var(--mediaplayer-thumbslider) !important; }
+  
+.mdl-slider:focus::-webkit-slider-thumb {
+  -webkit-box-shadow: 0 0 0 10px rgba(255, 128, 0, 0.26);
+  box-shadow: 0 0 0 10px var(--mediaplayer-thumbslider-focus) !important; }

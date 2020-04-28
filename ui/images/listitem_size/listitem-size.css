@@ -1,0 +1,4 @@
+/* THANK YOU u/EdgeMentality!! */
+.listItemImage-large {
+    height: var(--listitem-height) !important;
+}

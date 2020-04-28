@@ -1,0 +1,3 @@
+.navMenuOption-selected {
+    background: linear-gradient(var(--nav-menu-degree)deg, var(--nav-menu-button-color1), var(--nav-menu-button-color2)) !important;
+}

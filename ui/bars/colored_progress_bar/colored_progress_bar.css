@@ -1,0 +1,8 @@
+.itemProgressBarForeground {
+  background:var(--progressbar-card-color) !important;
+}
+.itemProgressBar {
+background:var(--progressbar-card-background-color);
+-webkit-backdrop-filter: blur(var(--progressbar-blur-amount));
+backdrop-filter: blur(var(--progressbar-blur-amount));
+}

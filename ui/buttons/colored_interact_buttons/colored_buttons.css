@@ -1,0 +1,12 @@
+.paper-icon-button-light {
+    color: var(--materialbutton-color) !important;
+}
+
+.paper-icon-button-light:hover:not(:disabled) {
+    color:var(--materialbutton-hover-color) !important;
+    background-color: var(--materialbutton-bg-hover-color) !important;
+}
+.paper-icon-button-light:focus:not(:disabled) {
+    color:var(--materialbutton-click-color) !important;
+    background-color: var(--materialbutton-bg-click-color) !important;
+}

@@ -1,0 +1,6 @@
+.emby-input:focus {
+    border-color: var(--input-border-focus-color) !important;
+}
+.emby-select-withcolor:focus{
+    border-color: var(--input-border-focus-color) !important;
+}

@@ -1,0 +1,15 @@
+.listItem {
+    padding: var(--contextmenu-paddingspacing) !important;
+    border-radius: var(--contextmenu-border-radius) !important;
+}
+
+.actionSheet {
+    border-radius: var(--contextmenu-border-radius) !important;
+    background-color: var(--contextmenu-color) !important;
+    -webkit-backdrop-filter: blur(var(--contextmenu-blur-amount)) !important;
+    backdrop-filter: blur(var(--contextmenu-blur-amount)) !important;
+}
+
+.actionsheetListItemBody {
+    padding: var(--contextmenu-paddingspacing) var(--contextmenu-paddingright) var(--contextmenu-paddingspacing) var(--contextmenu-paddingleft) !important;
+}

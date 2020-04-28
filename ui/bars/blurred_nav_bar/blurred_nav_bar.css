@@ -1,0 +1,5 @@
+.skinHeader-withBackground {
+    background: var(--navbar-color);
+    backdrop-filter: blur(var(--navbar-blur-amount));
+   -webkit-backdrop-filter: blur(var(--navbar-blur-amount));
+}

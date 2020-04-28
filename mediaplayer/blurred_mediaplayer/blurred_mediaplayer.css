@@ -1,0 +1,10 @@
+.osdHeader {
+    background: var(--video-controlpanel-background) !important;
+    -webkit-backdrop-filter: blur(var(--video-controlpanel-blur-amount)) brightness(var(--video-controlpanel-brightness-amount));
+    backdrop-filter: blur(var(--video-controlpanel-blur-amount)) brightness(var(--video-controlpanel-brightness-amount));
+}
+.videoOsdBottom{
+    background: var(--video-controlpanel-background) !important;
+    -webkit-backdrop-filter: blur(var(--video-controlpanel-blur-amount)) brightness(var(--video-controlpanel-brightness-amount));
+    backdrop-filter: blur(var(--video-controlpanel-blur-amount)) brightness(var(--video-controlpanel-brightness-amount));
+}

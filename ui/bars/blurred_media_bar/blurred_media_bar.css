@@ -1,0 +1,4 @@
+.detailSticky {
+    -webkit-backdrop-filter: blur(var(--media-bar-blur-amount)) !important;
+    backdrop-filter: blur(var(--media-bar-blur-amount)) !important;
+}

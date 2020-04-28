@@ -1,0 +1,137 @@
+:root {
+    
+    /* Big Global Variables! >:) */
+    --main-color: #a83fc6;
+    --secondary-color: #43184f;
+    --secondary-transparent: rgba(67,24,79,.5);
+
+    --default-transparent-black: rgba(0,0,0,.8);
+
+    /* Interact color is used for the default color of the buttons and labels around Jellyfin. */
+    --interact-color: rgb(250,250,250);
+    --main-card-round-radius: 1.2em;
+    --main-button-round-radius: .5em;
+
+    --main-blur-amount: 1em;
+    --secondary-blur-amount: 1.5em;
+    --tertiary-blur-amount: .2em;
+
+    --main-gradient: linear-gradient(90deg, var(--main-color), var(--secondary-color));
+    --secondary-gradient: linear-gradient(90deg, #43184f, #772b8c);
+
+    /* BELOW ARE SPECIFIC ADJUSTMENTS, MAJORITY IS ALREADY MANAGED BY GLOBALS BY DEFAULT */
+
+    /* Jellyfin Logo (jellyfin_logo_change), changes logo in top left */
+    --jellyfin-logo-image: url(../../assets/img/banner-light.png);
+    --jellyfin-mobile-logo-image: url(../img/icon-transparent.png);
+
+    /* Button Color (colored_interact_buttons) */
+    --materialbutton-color: var(--interact-color);
+    --materialbutton-hover-color:var(--main-color);
+    --materialbutton-click-color:var(--secondary-color);
+    --materialbutton-bg-hover-color: var(--secondary-transparent);
+    --materialbutton-bg-click-color: var(--secondary-transparent);
+
+    /* Spinner Color (colored_spinner) */
+    --spinner-color: var(--main-color);
+
+    /* Media Card Radius (round_play_cards) */
+    --border-radius-card: var(--main-card-round-radius);
+
+    /* Rounded Card Box Radius (round_card_info_box) */
+    --rounded-card-box: var(--main-card-round-radius);
+
+    /* Rounded Buttons Radius */
+    --rounded-buttons: var(--main-button-round-radius);
+
+    /* Episode Indicator (count_indicator_change */
+    --countindicator-background : var(--main-color);
+    --countindicator-border-radius: 0em;
+    /* use bennettfeely.com/clippy/ to make some awesome clips! */
+    --countindicator-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    --countindicator-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+
+    /* Video Control Panel (blurred_mediaplayer) */
+    --video-controlpanel-background: var(--default-transparent-black);
+    --video-controlpanel-blur-amount: 8px;
+    --video-controlpanel-brightness-amount: 100%;
+
+    /* Progress Bar (colored_progress_bar) */
+    --progressbar-card-color: var(--main-color);
+    --progressbar-card-background-color: var(--default-transparent-black);
+    --progressbar-blur-amount: var(--tertiary-blur-amount);
+
+    /* Save Buttons (colored_save_buttons), make it a gradient if you want! */
+    --save-button-color: var(--main-color);
+
+    /* Colored Tab Buttons (colored_tabbuttons) */
+    --tabbutton-color: var(--interact-color);
+    --tabbutton-hover-color: var(--main-color);
+    
+    /* Navigation Buttons (colored_nav_buttons) */
+    --nav-menu-button-color1: var(--main-color);
+    --nav-menu-button-color2: var(--secondary-color);
+    --nav-menu-degree: 90;
+
+    /* Border color (input_focus), for selected text box */
+    --input-border-focus-color: var(--main-color);
+
+    /* Input label focus (input_label_focus), text usually above the input */
+    --input-label-focus: var(--main-color);
+
+    /* Plex-esque background (plexesque_background), I reccomend to put this into a theme! */
+    --background-blur-amount: var(--main-blur-amount);
+    --background-brightness-amount: 40%;
+    --background-grain: url(https://i.imgur.com/o144ltn.png);
+
+    /* Navbar color (blurred_nav_bar) */
+    --navbar-color: rgba(40, 40, 40, .75);
+    --navbar-blur-amount: var(--main-blur-amount);
+
+    /* Colored Media Player (colored_mediaplayer) */
+    --mediaplayer-unloaded-remaining-color: #111;
+    --mediaplayer-loaded-remaining-color: #222;
+    --mediaplayer-background: var(--main-gradient);
+    --mediaplayer-thumbslider: var(--main-color);
+    --mediaplayer-thumbslider-focus: var(--secondary-transparent);
+
+    /* Sidebar Blur (blurred_side_bar) */
+    --sidebar-color: var(--default-transparent-black);
+    --sidebar-blur-amount: var(--secondary-blur-amount);
+    --sidebar-background-color: rgba(0,0,0,.0);
+    --sidebar-background-blur-amount: .5em;
+    --sidebar-selectedoption-color: var(--main-gradient);
+    --sidebar-border-radius: .5em;
+    --sidebar-width: 320px;
+
+    /* Resized Context Menu (condensed_and_nice_context_menu) */
+    --contextmenu-color: var(--default-transparent-black);
+    --contextmenu-blur-amount: var(--secondary-blur-amount);
+    --contextmenu-paddingspacing: .1em;
+    --contextmenu-paddingleft: .1em;
+    --contextmenu-paddingright: 1em;
+    --contextmenu-border-radius: .5em;
+
+    /* Dialog Prompts (focus_restyle) */
+    --dialogprompt-blur-amount: var(--secondary-blur-amount);
+}
+
+.backgroundContainer.withBackdrop {
+    background: var(--background-grain) !important;
+ }
+
+.backdropContainer {
+    -webkit-backface-visibility: visible;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: visible;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-filter: blur(var(--background-blur-amount)) brightness(var(--background-brightness-amount)) !important;
+    -moz-filter: blur(var(--background-blur-amount)) brightness(var(--background-brightness-amount)) !important;
+    -o-filter: blur(var(--background-blur-amount)) brightness(var(--background-brightness-amount)) !important;
+    -ms-filter: blur(var(--background-blur-amount)) brightness(var(--background-brightness-amount)) !important;
+    filter: blur(var(--background-blur-amount)) brightness(var(--background-brightness-amount)) !important;
+}

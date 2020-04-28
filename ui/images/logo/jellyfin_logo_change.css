@@ -1,0 +1,7 @@
+.pageTitleWithDefaultLogo{
+    background-image: var(--jellyfin-logo-image) !important;
+}
+
+.layout-mobile .pageTitleWithDefaultLogo {
+    background-image: var(--jellyfin-mobile-logo-image) !important;
+}

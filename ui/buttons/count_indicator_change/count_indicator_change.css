@@ -1,0 +1,9 @@
+.countIndicator {
+    background: var(--countindicator-background) !important;
+    border-radius: var(--countindicator-border-radius) !important;
+    -webkit-clip-path: var(--countindicator-clip-path) !important;
+    -ms-clip-path: var(--countindicator-clip-path) !important;
+    -o-clip-path: var(--countindicator-clip-path) !important;
+    clip-path: var(--countindicator-clip-path) !important;
+    box-shadow: var(--countindicator-shadow);
+}

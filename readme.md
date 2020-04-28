@@ -43,7 +43,7 @@ Example comparison photos of certain "plugins":
 4. Find the components you want to install, and copy their CSS template into your Custom CSS.
 
 
-5. Enjoy the custom CSS!
+5. Enjoy the new look!
 
 ### "Create-A-Theme" Method
 

@@ -1,4 +1,4 @@
-# Custom Jellyfin CSS (Plug and Play)
+# Custom Jellyfin CSS (Plug n' Play)
 
 ## Introduction
 

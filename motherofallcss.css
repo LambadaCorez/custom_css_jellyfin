@@ -6,7 +6,7 @@
 
 .cardOverlayContainer, .cardContent {
     border-radius: var(--border-radius-card)
-}
+} 
 
 .osdHeader {
     background: var(--video-controlpanel-background) !important;
@@ -174,14 +174,6 @@
 /* THANK YOU u/EdgeMentality!! */
 .listItemImage-large {
     height: var(--listitem-height) !important;
-}
-
-.pageTitleWithDefaultLogo{
-    background-image: var(--jellyfin-logo-image) !important;
-}
-
-.layout-mobile .pageTitleWithDefaultLogo {
-    background-image: var(--jellyfin-mobile-logo-image) !important;
 }
 
 .mdl-spinner__layer-1, .mdl-spinner__layer-2, .mdl-spinner__layer-3,

@@ -4,7 +4,7 @@
     border-radius:var(--rounded-card-box)!important;
 }
 
-.cardBox, .cardOverlayContainer {
+.cardBox, .cardContent {
     border-radius: var(--border-radius-card)
 }
 
@@ -65,8 +65,8 @@
 }
 
 .detailSticky {
-    -webkit-backdrop-filter: blur(var(--media-bar-blur-amount)) !important;
-    backdrop-filter: blur(var(--media-bar-blur-amount)) !important;
+    -webkit-backdrop-filter: blur(var(--mediabar-blur-amount)) !important;
+    backdrop-filter: blur(var(--mediabar-blur-amount)) !important;
 }
 
 .skinHeader-withBackground {

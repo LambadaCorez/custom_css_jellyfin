@@ -113,6 +113,9 @@
 
     /* Dialog Prompts (focus_restyle) */
     --dialogprompt-blur-amount: var(--secondary-blur-amount);
+
+    /*Media Bar Blur (media_bar_blur) */
+    --mediabar-blur-amount: var(--main-blur-amount);
 }
 
 .backgroundContainer.withBackdrop {

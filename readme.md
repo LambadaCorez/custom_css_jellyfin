@@ -8,7 +8,7 @@ This CSS package was designed to be extraordinarily customizable and expandable 
 
 If you have any custom CSS that you would like to add or share, feel free to contribute!
 
-## Code Samples
+## Examples
 
 Example comparison photos of certain "plugins":
 
@@ -25,12 +25,9 @@ Example comparison photos of certain "plugins":
 ![](https://i.imgur.com/bILuR6d.png)
 
 
-
 ## Installation
 
-# Installation
-
-## Custom CSS Method
+### Custom CSS Method
 
 [Video Tutorial](https://streamable.com/3j0ej1)
 
@@ -48,11 +45,11 @@ Example comparison photos of certain "plugins":
 
 5. Enjoy the custom CSS!
 
-## "Create-A-Theme" Method
+### "Create-A-Theme" Method
 
 [Follow my tutorial on Reddit!](https://www.reddit.com/r/jellyfin/comments/emlwpv/how_to_add_custom_themes_into_jellyfin/)
 
-## Changing Variables
+### Changing Variables
 
 To change variables and make it your own:
 1. Open up your .css file either thru Custom CSS or your theme profile depending on how you installed it.

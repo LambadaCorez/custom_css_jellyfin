@@ -40,10 +40,13 @@ Example comparison photos of certain "plugins":
 3. Copy everything from "copyme.css" to the top of the Custom CSS list.
 
 
-4. Find the components you want to install, and copy their CSS template into your Custom CSS dialog box.
+4. Find the components you want to install, and get to the raw version of it (raw.githubusercontent.com)
 
 
-5. Enjoy the new look!
+5. Go into your custom CSS, and type in "@import url('RAW.GITHUBUSERCONTENT.COM LINK HERE');"
+
+
+6. Enjoy the new look!
 
 ### "Create-A-Theme" Method
 

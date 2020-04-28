@@ -4,9 +4,7 @@
     backdrop-filter: blur(--sidebar-blur-amount) !important;
     width: var(--sidebar-width) !important;
 }
-.navMenuOption-selected {
-    background: var(--sidebar-selectedoption-color) !important;
-}
+
 .tmla-mask.backdrop {
     color: var(--sidebar-background-color) !important;
     -webkit-backdrop-filter: blur(var(--sidebar-background-blur-amount)) !important;

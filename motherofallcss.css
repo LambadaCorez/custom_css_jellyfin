@@ -81,9 +81,7 @@
     backdrop-filter: blur(--sidebar-blur-amount) !important;
     width: var(--sidebar-width) !important;
 }
-.navMenuOption-selected {
-    background: var(--sidebar-selectedoption-color) !important;
-}
+
 .tmla-mask.backdrop {
     color: var(--sidebar-background-color) !important;
     -webkit-backdrop-filter: blur(var(--sidebar-background-blur-amount)) !important;
@@ -113,7 +111,7 @@
 }
 
 .navMenuOption-selected {
-    background: linear-gradient(var(--nav-menu-degree)deg, var(--nav-menu-button-color1), var(--nav-menu-button-color2)) !important;
+    background: var(--navmenu-background) !important;
 }
 
 .button-submit, .button-alt {

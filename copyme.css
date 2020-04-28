@@ -16,6 +16,8 @@
     --secondary-blur-amount: 1.5em;
     --tertiary-blur-amount: .2em;
 
+
+    
     --main-gradient: linear-gradient(90deg, var(--main-color), var(--secondary-color));
     --secondary-gradient: linear-gradient(90deg, #43184f, #772b8c);
 
@@ -69,9 +71,7 @@
     --tabbutton-hover-color: var(--main-color);
     
     /* Navigation Buttons (colored_nav_buttons) */
-    --nav-menu-button-color1: var(--main-color);
-    --nav-menu-button-color2: var(--secondary-color);
-    --nav-menu-degree: 90;
+    --navmenu-background: var(--main-gradient);
 
     /* Border color (input_focus), for selected text box */
     --input-border-focus-color: var(--main-color);
@@ -100,7 +100,6 @@
     --sidebar-blur-amount: var(--secondary-blur-amount);
     --sidebar-background-color: rgba(0,0,0,.0);
     --sidebar-background-blur-amount: .5em;
-    --sidebar-selectedoption-color: var(--main-gradient);
     --sidebar-border-radius: .5em;
     --sidebar-width: 320px;
 
